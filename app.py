@@ -11,7 +11,7 @@ import threading
 
 # UUID from environment or default
 UUID = os.getenv("UUID", "d342d11e-d424-4583-b36e-524ab1f0afa4").replace('-', '')
-PORT = int(os.getenv("PORT", "443"))
+PORT = int(os.getenv("PORT", "80"))
 
 def log(*args):
     print("LOG:", *args)
